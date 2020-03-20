@@ -1,4 +1,4 @@
-function[jVal,gradient]=cF2(theta)
+function[jVal,gradient]=LogisticRegression(theta)
 x=[1 2 6;1 3 8;1 4 10];
 y=[1;0;1];
 m=3;
