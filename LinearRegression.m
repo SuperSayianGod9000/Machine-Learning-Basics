@@ -1,4 +1,4 @@
-function[jVal,gradient]=cF1(theta)
+function[jVal,gradient]=LinearRegression(theta)
 x=[1 2 6;1 3 8;1 4 10];
 y=[1;2;3];
 m=3;
